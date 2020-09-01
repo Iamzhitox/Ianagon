@@ -1,6 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pruebasfd/public_html/
-    - /bin/rm -Rf $DEPLOYPATH
-    - /bin/mkdir $DEPLOYPATH
-    - /bin/cp -R IanagonBlog/. $DEPLOYPATH
+        - /bin cp /IanagonBlog/* $DEPLOYPATH
