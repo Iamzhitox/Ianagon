@@ -3,4 +3,4 @@ deployment:
     - export DEPLOYPATH=/home/pruebasfd/public_html/
     - /bin/rm -Rf $DEPLOYPATH
     - /bin/mkdir $DEPLOYPATH
-    - /bin/cp -R 'Proyecto Original'/. $DEPLOYPATH
+    - /bin/cp -R IanagonBlog/. $DEPLOYPATH
